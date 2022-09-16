@@ -1,3 +1,4 @@
+//This is my go file
 package main
 
 import "fmt"
