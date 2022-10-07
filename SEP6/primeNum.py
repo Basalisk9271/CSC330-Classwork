@@ -6,13 +6,14 @@ def isPrime(num):
         if ( numDivisors > 2 ):
             return False
 
-def printPrime(num):
-    for i in range (2, num+1):
+def printPrime(num1, num2):
+    for i in range (num1, num2+1):
         if (isPrime(i) != False):
             print (i)
 def main():
-    val = int(input ("Enter a value:"))
-    printPrime(val)
+    val1 = int(input ("Enter a value:"))
+    val2 = int(input ("Enter a value:"))
+    printPrime(val1, val2)
 
 main()
     
