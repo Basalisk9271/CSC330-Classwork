@@ -1,0 +1,150 @@
+V "GNAT Lib v4.8"
+M P W=b
+P SS ZX
+
+RN
+RV NO_ACCESS_SUBPROGRAMS
+RV NO_ALLOCATORS
+RV NO_DISPATCH
+RV NO_DISPATCHING_CALLS
+RV NO_EXCEPTION_HANDLERS
+RV NO_EXCEPTION_PROPAGATION
+RV NO_EXCEPTIONS
+RV NO_IO
+RV NO_IMPLICIT_CONDITIONALS
+RV NO_IMPLICIT_DYNAMIC_CODE
+RV NO_LOCAL_ALLOCATORS
+RV NO_NESTED_FINALIZATION
+RV NO_RECURSION
+RV NO_SECONDARY_STACK
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_STREAMS
+RV NO_UNCHECKED_ACCESS
+RV NO_DEFAULT_INITIALIZATION
+RV NO_IMPLEMENTATION_ATTRIBUTES
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_IMPLICIT_ALIASING
+RV SPARK
+
+U happy%b		happy.adb		d258e742 NE OO SU
+W ada%s			ada.ads			ada.ali
+W ada.containers%s	a-contai.ads		a-contai.ali
+W ada.containers.ordered_sets%s
+Z ada.containers.red_black_trees%s  a-crbltr.ads  a-crbltr.ali
+Z ada.containers.red_black_trees.generic_keys%s
+Z ada.containers.red_black_trees.generic_operations%s
+Z ada.containers.red_black_trees.generic_set_operations%s
+W ada.exceptions%s	a-except.adb		a-except.ali
+Z ada.finalization%s	a-finali.adb		a-finali.ali
+W ada.integer_text_io%s	a-inteio.ads		a-inteio.ali
+Z ada.iterator_interfaces%s
+W ada.streams%s		a-stream.ads		a-stream.ali
+W ada.tags%s		a-tags.adb		a-tags.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+Z ada.unchecked_deallocation%s
+W system%s		system.ads		system.ali
+W system.address_image%s  s-addima.adb		s-addima.ali
+W system.concat_2%s	s-conca2.adb		s-conca2.ali
+W system.finalization_masters%s  s-finmas.adb	s-finmas.ali
+W system.img_int%s	s-imgint.adb		s-imgint.ali
+W system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+W system.soft_links%s	s-soflin.adb		s-soflin.ali
+W system.standard_library%s  s-stalib.adb	s-stalib.ali
+W system.storage_elements%s  s-stoele.adb	s-stoele.ali
+W system.storage_pools%s  s-stopoo.adb		s-stopoo.ali
+W system.storage_pools.subpools%s  s-stposu.adb	s-stposu.ali
+W system.stream_attributes%s  s-stratt.adb	s-stratt.ali
+
+D ada.ads		20121213103024 3ffc8e18
+D a-contai.ads		20121213103024 61e5e089
+D a-coorse.ads		20121213103024 7f976356
+D a-coorse.adb		20121213103024 c0af8dbf
+D a-crbltr.ads		20121213103024 b8a2dc05
+D a-crbtgk.ads		20121213103024 18ae3fab
+D a-crbtgk.adb		20121213103024 4933aa9d
+D a-crbtgo.ads		20121213103024 375f6f61
+D a-crbtgo.adb		20121213103024 86232183
+D a-rbtgso.ads		20121213103024 8700a961
+D a-rbtgso.adb		20121213103024 f22a83dd
+D a-except.ads		20121213103024 10fcae55
+D a-finali.ads		20121213103024 52ecdc1b
+D a-inteio.ads		20121213103029 f64b89a4
+D a-ioexce.ads		20121213103029 8b9de6cd
+D a-iteint.ads		20121213103024 7c7305e9
+D a-stream.ads		20121213103024 2ca4ee37
+D a-tags.ads		20121213103024 6c0509d0
+D a-textio.ads		20130106093217 386df5d4
+D a-tiinio.ads		20121213103024 aa04e5d6
+D a-unccon.ads		20121213103024 f9eb8f06
+D a-uncdea.ads		20121213103024 f15a5ed1
+D happy.adb		20221018151838 63e9f864
+D interfac.ads		20121213103024 129923ea
+D i-cstrea.ads		20130106093208 3286f6aa
+D system.ads		20121213103024 90249111
+D s-addima.ads		20121213103024 a1ec9d3a
+D s-conca2.ads		20121213103024 fbd0f2fc
+D s-crtl.ads		20130106093200 1ea48bce
+D s-exctab.ads		20121213103029 66e51330
+D s-ficobl.ads		20121213103029 55a71d43
+D s-finmas.ads		20121213103024 b95bb341
+D s-finroo.ads		20121213103024 4ff27390
+D s-imgint.ads		20121213103024 02dbe0c2
+D s-parame.ads		20121213103024 b6e20cc0
+D s-pooglo.ads		20121213103024 542f33d0
+D s-secsta.ads		20121213103024 eea35a36
+D s-soflin.ads		20121213103024 24c8153c
+D s-stache.ads		20121213103024 596fc1b4
+D s-stalib.ads		20130106093355 f78bcf95
+D s-stoele.ads		20121213103024 facd7d98
+D s-stoele.adb		20121213103024 afc5dc80
+D s-stopoo.ads		20121213103024 7b8fbeee
+D s-stposu.ads		20121213103024 ffeba1c5
+D s-stratt.ads		20121213103029 aedef97e
+D s-traent.ads		20121213103024 5221ee41
+D s-unstyp.ads		20121213103024 6ae15c76
+D s-wchcon.ads		20121213103024 bfeb2e3d
+X 1 ada.ads
+16K9*Ada 19e8 23|1r6 1r24 2r6 3r6 3r31 7r39 40r1 41r1
+X 2 a-contai.ads
+16K13*Containers 24e19 23|2r10 7r43
+X 3 a-coorse.ads
+46k24*Ordered_Sets 402e32 23|2w21 7r54
+52R9 Set 23|20r17[7]
+117U14 Insert 23|28s21[7]
+195V13 Contains{boolean} 23|25s24[7]
+304R9 Node_Type
+305P9 Node_Access(304R9[23|7])
+X 4 a-coorse.adb
+72V13 Color{5|35E9} 8|45i19[23|7]
+75V13 Left{3|305P9} 8|41i19
+78V13 Parent{3|305P9[23|7]} 8|39i19[23|7]
+81V13 Right{3|305P9} 8|43i19
+84U14 Set_Color 8|46i19
+87U14 Set_Left 8|42i19
+90U14 Set_Right 8|44i19
+93U14 Set_Parent 8|40i19[23|7]
+X 14 a-inteio.ads
+18K13*Integer_Text_IO[20|45] 23|3w10 3r35 41r5
+X 16 a-iteint.ads
+24h9 Forward_Iterator
+32h9 Reversible_Iterator<24R9[3|68]>
+X 19 a-textio.ads
+49K13*Text_IO 471e16 23|1w10 1r28 40r5
+242U14*Put 23|40s13 44s10
+X 20 a-tiinio.ads
+55U14*Get 23|41s21[14|18]
+X 23 happy.adb
+5U11*Happy 5b11 49l5 49t10
+6V13 Is_Happy{boolean} 6b13 6>23 32l8 32t16 43s10
+6i23 N{positive} 19r29
+7K15 Sets_Of_Positive[3|46] 8r11
+9V16 Next{natural} 9b16 9>22 18l11 18t15 29s24
+9i22 N{positive} 11r29
+10i10 Sum{natural} 14m13 14r22 17r17
+11i10 Accum{natural} 13r16 14r29 15m13 15r22
+19i7 Current{positive} 23r13 25r34 28r29 29m13 29r30
+20r7 Visited{3|52R9[7]} 25r16 28m13 28r13
+36i1 Found{natural} 45m10 45r19 46r20
+37i1 NumberToFind{integer} 41m25 46r28
+42i8 N{positive} 43r20 44r30
+
