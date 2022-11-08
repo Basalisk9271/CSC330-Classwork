@@ -1,0 +1,73 @@
+V "GNAT Lib v4.8"
+M P W=b
+P ZX
+
+RN
+RV NO_FLOATING_POINT
+RV NO_IO
+RV NO_IMPLICIT_LOOPS
+RV SPARK
+
+U multi%b		multi.adb		3708cd5b NE OO SU IL
+W ada%s			ada.ads			ada.ali
+W ada.float_text_io%s	a-flteio.ads		a-flteio.ali
+W ada.integer_text_io%s	a-inteio.ads		a-inteio.ali
+W ada.tags%s		a-tags.adb		a-tags.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+
+D ada.ads		20121213103024 3ffc8e18
+D a-except.ads		20121213103024 10fcae55
+D a-finali.ads		20121213103024 52ecdc1b
+D a-flteio.ads		20121213103024 e18a47a0
+D a-inteio.ads		20121213103029 f64b89a4
+D a-ioexce.ads		20121213103029 8b9de6cd
+D a-stream.ads		20121213103024 2ca4ee37
+D a-tags.ads		20121213103024 6c0509d0
+D a-textio.ads		20130106093217 386df5d4
+D a-tiflio.ads		20121213103024 56fbda09
+D a-tiinio.ads		20121213103024 aa04e5d6
+D a-unccon.ads		20121213103024 f9eb8f06
+D interfac.ads		20121213103024 129923ea
+D i-cstrea.ads		20130106093208 3286f6aa
+D multi.adb		20221103204617 18a4f68b
+D system.ads		20121213103024 90249111
+D s-crtl.ads		20130106093200 1ea48bce
+D s-exctab.ads		20121213103029 66e51330
+D s-ficobl.ads		20121213103029 55a71d43
+D s-finmas.ads		20121213103024 b95bb341
+D s-finroo.ads		20121213103024 4ff27390
+D s-parame.ads		20121213103024 b6e20cc0
+D s-pooglo.ads		20121213103024 542f33d0
+D s-soflin.ads		20121213103024 24c8153c
+D s-stache.ads		20121213103024 596fc1b4
+D s-stalib.ads		20130106093355 f78bcf95
+D s-stoele.ads		20121213103024 facd7d98
+D s-stoele.adb		20121213103024 afc5dc80
+D s-stopoo.ads		20121213103024 7b8fbeee
+D s-traent.ads		20121213103024 5221ee41
+D s-unstyp.ads		20121213103024 6ae15c76
+D s-wchcon.ads		20121213103024 bfeb2e3d
+X 1 ada.ads
+16K9*Ada 19e8 15|1r6 1r19 1r40 2r5 2r18 2r39
+X 4 a-flteio.ads
+20K13*Float_Text_IO[10|45] 15|1w44 2r43
+X 5 a-inteio.ads
+18K13*Integer_Text_IO[11|45] 15|1w23 2r22
+X 9 a-textio.ads
+49K13*Text_IO 471e16 15|1w10 2r9
+166U14*New_Line 15|24s9 27s9
+242U14*Put 15|9s5 25s9
+X 10 a-tiflio.ads
+67U14*Put 15|26s9[4|20]
+X 11 a-tiinio.ads
+55U14*Get 15|10s5[5|18]
+X 15 multi.adb
+4U11*multi 4b11 30l5 30t10
+5A10 Three_Dimensional_Float_Array(float)<integer><integer><integer> 13r17
+6i5 dimension{integer} 10m9 13r52 13r66 13r80 16r21 17r25 18r29 19r48 19r58
+. 19r74 26r19 26r29 26r39
+13a9 cube{5A10} 19m21 26r14
+16i13 i{integer} 19r26 19r43
+17i17 j{integer} 19r28 19r69
+18i21 k{integer} 19r30 19r84
+
